@@ -1,5 +1,25 @@
+import { useEffect, useState } from 'react';
+import { BooksEntity } from '../../types/types';
+import { getBooks } from '../../api/get';
+import CardOfBook from '../card/Card';
+
 const Products = () => {
-  return <div>Products</div>;
+  const [books, setBooks] = useState<BooksEntity[]>([]);
+
+  useEffect(() => {
+    getBooks().then((data) => {
+      // console.log('Fetched data:', data); // Log the fetched data
+      setBooks(data);
+    });
+  }, []);
+
+  return (
+    <div className="grid grid-cols-3 mt-3 gap-4">
+      {books.map((book: BooksEntity) => {
+        return <CardOfBook key={book.id} data={book} />;
+      })}
+    </div>
+  );
 };
 
 export default Products;
