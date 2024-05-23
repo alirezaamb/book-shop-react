@@ -122,17 +122,17 @@ export default function Header() {
       open={isMobileMenuOpen}
       onClose={handleMobileMenuClose}
     >
+      <Link to="/">
+        <MenuItem>
+          <IconButton
+            size="large"
+            aria-label="show 17 new notifications"
+            color="inherit"
+          ></IconButton>
+          <p>{localization.home}</p>
+        </MenuItem>
+      </Link>
       <Link to="products">
-        <Link to="/">
-          <MenuItem>
-            <IconButton
-              size="large"
-              aria-label="show 17 new notifications"
-              color="inherit"
-            ></IconButton>
-            <p>{localization.home}</p>
-          </MenuItem>
-        </Link>
         <MenuItem>
           <IconButton
             size="large"
