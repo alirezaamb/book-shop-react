@@ -1,0 +1,46 @@
+{
+  "books": [
+    {
+      "id": 1,
+      "name": "قدرت شروع ناقص اثر جیمز کلییر ",
+      "desc": "انتشارات میلکان",
+      "price": 136500,
+      "imgURL": "https://dkstatics-public.digikala.com/digikala-products/44fe1e4cbebc8fd7411ad668466d24c8fcb2eee5_1658554311.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90"
+    },
+    {
+      "id": 2,
+      "name": "هنر ظریف رهایی از دغدغه ها اثر مارک منسن",
+      "desc": "میلکان",
+      "price": 126000,
+      "imgURL": "https://dkstatics-public.digikala.com/digikala-products/19e45017cecc25e52d787650e497e56b2cc79d44_1610033131.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90"
+    },
+    {
+      "id": 3,
+      "name": "بی حد و مرز اثر جیم کوییک",
+      "desc": "میلکان",
+      "price": 145000,
+      "imgURL": "https://dkstatics-public.digikala.com/digikala-products/9aea395b9042a495d513528ab61d406d7acd5faf_1658549418.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90"
+    },
+    {
+      "id": 4,
+      "name": "برتری خفیف اثر جف اولسن",
+      "desc": "میلکان",
+      "price": 142000,
+      "imgURL": "https://dkstatics-public.digikala.com/digikala-products/5e9b307c72b11252bb6d35acb036f4062c1051a3_1646657271.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90"
+    },
+    {
+      "id": 5,
+      "name": "خرده عادت ها اثر جیمز کلییر",
+      "desc": "میلکان",
+      "price": 133700,
+      "imgURL": "https://dkstatics-public.digikala.com/digikala-products/e5a4b93d44eae96a54ae68dae7ffaf43960b6766_1658548854.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90"
+    },
+    {
+      "id": 6,
+      "name": "اوضاع خیلی خراب است اثر مارک منسن",
+      "desc": "میلکان",
+      "price": 139800,
+      "imgURL": "https://dkstatics-public.digikala.com/digikala-products/462005c7394244bbc6951fc22285cdc34b0d118f_1658548899.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90"
+    }
+  ]
+}
