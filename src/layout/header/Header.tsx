@@ -187,7 +187,7 @@ export default function Header() {
             component="div"
             sx={{ display: { xs: 'none', sm: 'block' } }}
           >
-            MUI
+            فروشگاه کتاب
           </Typography>
           <Search>
             <SearchIconWrapper>

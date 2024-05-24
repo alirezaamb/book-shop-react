@@ -7,4 +7,6 @@ export interface BooksEntity {
   desc: string;
   price: number;
   imgURL: string;
+  author: string;
+  translator: string;
 }

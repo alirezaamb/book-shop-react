@@ -3,10 +3,10 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: vaziri;
-  src: url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@100..900&display=swap');
+  font-family: iransans;
+  src: url('./assets/fonts/IRANSans(FaNum).ttf');
 }
 
-body {
-  font-family: vaziri;
+html {
+  font-family: iransans;
 }
