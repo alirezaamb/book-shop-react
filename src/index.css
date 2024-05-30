@@ -3,10 +3,10 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: iransans;
+  font-family: 'iransans';
   src: url('./assets/fonts/IRANSans(FaNum).ttf');
 }
 
 html {
-  font-family: iransans;
+  font-family: 'iransans';
 }

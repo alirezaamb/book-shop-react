@@ -1,17 +1,18 @@
 import { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
-import { getBookById } from '../../api/get';
+// import { getBookById } from '../../api/get';
 import { BooksEntity } from '../../types/types';
 import {
   localization,
   pageLevelLocalization,
 } from '../../constants/localization';
+import { getBookById } from '../../api/get';
 
 const SingleCard = () => {
   const [book, setBook] = useState<BooksEntity>();
   const params = useParams();
   useEffect(() => {
-    getBookById(params.productId).then((data) => setBook(data));
+    getBookById(params.productId!).then((data) => setBook(data));
   }, []);
   return book ? (
     <div dir="rtl" className="flex gap-3 mt-10 rtl h-fit mx-14">

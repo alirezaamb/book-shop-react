@@ -181,20 +181,22 @@ export default function Header() {
           >
             <MenuIcon />
           </IconButton>
-          <Typography
-            variant="h6"
-            noWrap
-            component="div"
-            sx={{ display: { xs: 'none', sm: 'block' } }}
-          >
-            فروشگاه کتاب
-          </Typography>
+          <Link to="/">
+            <Typography
+              variant="h6"
+              noWrap
+              component="div"
+              sx={{ display: { xs: 'none', sm: 'block' } }}
+            >
+              فروشگاه کتاب
+            </Typography>
+          </Link>
           <Search>
             <SearchIconWrapper>
               <SearchIcon />
             </SearchIconWrapper>
             <StyledInputBase
-              placeholder="Search…"
+              placeholder={localization.search}
               inputProps={{ 'aria-label': 'search' }}
             />
           </Search>

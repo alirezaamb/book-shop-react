@@ -12,12 +12,11 @@ export default function CardOfBook({ data }: { data: BooksEntity }) {
   const navigate = useNavigate();
 
   const handleNavigate = () => {
-    navigate({
-      pathname: id,
-    });
+    navigate(`/products/${id}`); // Ensure this path matches your routing configuration
   };
+
   return (
-    <Card sx={{ maxWidth: 345 }}>
+    <Card sx={{ maxWidth: 345 }} className="flex flex-col justify-between">
       <CardMedia
         component="img"
         alt="book"
@@ -34,9 +33,19 @@ export default function CardOfBook({ data }: { data: BooksEntity }) {
           {desc}
         </Typography>
       </CardContent>
-      <CardActions>
-        <Button className="bg-blue-300">خرید</Button>
-        <Typography>{price}</Typography>
+      <CardActions className="flex justify-between px-1">
+        <Button
+          style={{
+            backgroundColor: '#3b82f6',
+            color: 'white',
+            fontSize: '16px',
+          }}
+        >
+          خرید
+        </Button>
+        <Typography fontSize={'large'}>
+          {price.toLocaleString('FA')} تومان
+        </Typography>
       </CardActions>
     </Card>
   );

@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { BooksEntity } from '../../types/types';
-import { getBooks } from '../../api/get';
 import CardOfBook from '../card/Card';
+import { getBooks } from '../../api/get';
 
 const Products = () => {
   const [books, setBooks] = useState<BooksEntity[]>([]);

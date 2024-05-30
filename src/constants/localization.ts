@@ -5,6 +5,7 @@ export const localization = {
   price: 'قیمت',
   addToCart: 'افزودن به سبد',
   toman: 'تومان',
+  search: 'جست و جو',
 };
 
 export const pageLevelLocalization = {
