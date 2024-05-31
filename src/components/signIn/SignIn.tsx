@@ -35,7 +35,7 @@ export default function SignIn({ setSearchParams }: SingInType) {
           'Auth',
           JSON.stringify({ isLogin: true, role: 'admin' })
         );
-        navigate({ pathname: 'dashboard' });
+        navigate({ pathname: '/dashboard' });
       } else {
         localStorageSetter(
           'Auth',
