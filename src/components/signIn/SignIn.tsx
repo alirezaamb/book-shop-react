@@ -40,7 +40,7 @@ export default function SignIn({ setSearchParams }: SingInType) {
           JSON.stringify({ isLogin: true, role: 'user' })
         );
 
-        navigate({ pathname: '/products' });
+        navigate({ pathname: '/' });
       }
     }
     console.log({
