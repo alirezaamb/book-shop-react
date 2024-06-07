@@ -5,3 +5,8 @@ import { UserType } from '../../types/types';
 export const newUser = async (data: UserType) => {
   return await axios.post(`${BASE_URL}/profiles`, data);
 };
+
+export const newProduct = async (data: any) => {
+  console.log(data);
+  return await axios.post(`${BASE_URL}/books`, data);
+};

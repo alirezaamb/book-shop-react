@@ -1,6 +1,5 @@
 import { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
-// import { getBookById } from '../../api/get';
 import { BooksEntity } from '../../types/types';
 import {
   localization,
